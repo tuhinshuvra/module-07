@@ -1,0 +1,29 @@
+.box-1 {
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+
+}
+
+.inner {
+    background-color: rgb(122, 122, 190);
+    height: 200px;
+    width: 200px;
+    border: 1px solid red;
+    transition: width 2s, height 2s, transform 5s;
+    -webkit-transition: width 2s, height 2s, transform 5s;
+    -moz-transition: width 2s, height 2s, transform 5s;
+    -ms-transition: width 2s, height 2s, transform 5s;
+    -o-transition: width 2s, height 2s, transform 5s;
+}
+
+.inner:hover {
+    height: 200px;
+    width: 200px;
+    transform: rotate(180deg) scale(0.75);
+    -webkit-transform: rotate(180deg) scale(0.75);
+    -moz-transform: rotate(180deg) scale(0.75);
+    -ms-transform: rotate(180deg) scale(0.75);
+    -o-transform: rotate(180deg) scale(0.75);
+}
